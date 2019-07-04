@@ -26,4 +26,4 @@ EXPOSE 3001
 
 
 
-CMD ["node", "main.js"]
+CMD ["npm", "start"]
