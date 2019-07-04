@@ -5,7 +5,7 @@ config = {
     },
     devServer: {
        inline: true,
-       port: 8081
+       port: 3001
     },
     module: {
        loaders: [
@@ -13,7 +13,7 @@ config = {
              test: /\.jsx?$/,
              exclude: /node_modules/,
              loader: 'babel-loader',
-                 
+
              query: {
                 presets: ['es2015', 'react']
              }
