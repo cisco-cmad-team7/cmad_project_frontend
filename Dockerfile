@@ -14,13 +14,7 @@ RUN npm config set registry https://registry.npmjs.org
 
 COPY package.json /app/package.json
 
-RUN npm install \
-
-&& npm ls \
-
-&& npm cache clean --force \
-
-&& mv /app/node_modules /node_modules
+RUN npm install
 
 COPY . /app
 
