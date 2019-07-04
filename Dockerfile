@@ -26,4 +26,4 @@ EXPOSE 3001
 
 
 
-CMD ["nodemon", "index.js"]
+CMD ["npm", "start"]
