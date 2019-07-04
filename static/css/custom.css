@@ -1,0 +1,8 @@
+.chart-container .highcharts-grid {
+    display: none;
+ }
+
+ .highcharts-credits
+ {
+    display: none;
+ }

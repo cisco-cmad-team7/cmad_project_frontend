@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "datetime": 1559387451,
+        "description": "test message",
+        "severity": "error",
+        "deviceName": "cat9k",
+        "deviceLocation": "SJ"
+    },
+    {
+        "id": 2,
+        "datetime": 1559387451,
+        "description": "test message",
+        "severity": "error",
+        "deviceName": "cat9k",
+        "deviceLocation": "SJ"
+    },
+    {
+        "id": 3,
+        "datetime": 1559387451,
+        "description": "test message",
+        "severity": "error",
+        "deviceName": "cat9k",
+        "deviceLocation": "SJ"
+    },
+    {
+        "id": 4,
+        "datetime": 1559387451,
+        "description": "test message",
+        "severity": "info",
+        "deviceName": "cat9k",
+        "deviceLocation": "BGL"
+    },
+    {
+        "id": 5,
+        "datetime": 1559387451,
+        "description": "test message",
+        "severity": "info",
+        "deviceName": "cat9k",
+        "deviceLocation": "BGL"
+    },
+    {
+        "id": 6,
+        "datetime": 1559387451,
+        "description": "test message",
+        "severity": "info",
+        "deviceName": "cat9k",
+        "deviceLocation": "BGL"
+    },
+    {
+        "id": 7,
+        "datetime": 1559387451,
+        "description": "test message",
+        "severity": "warn",
+        "deviceName": "cat9k",
+        "deviceLocation": "BGL"
+    },
+    {
+        "id": 8,
+        "datetime": 1559387451,
+        "description": "test message",
+        "severity": "warn",
+        "deviceName": "cat9k",
+        "deviceLocation": "BGL"
+    },
+    {
+        "id": 9,
+        "datetime": 1559387451,
+        "description": "test message",
+        "severity": "warn",
+        "deviceName": "cat9k",
+        "deviceLocation": "BGL"
+    },
+    {
+        "id": 10,
+        "datetime": 1559387451,
+        "description": "test message",
+        "severity": "warn",
+        "deviceName": "cat9k",
+        "deviceLocation": "OTT"
+    },
+    {
+        "id": 11,
+        "datetime": 1559387451,
+        "description": "test message",
+        "severity": "warn",
+        "deviceName": "cat9k",
+        "deviceLocation": "OTT"
+    },
+    {
+        "id": 12,
+        "datetime": 1559387451,
+        "description": "test message",
+        "severity": "warn",
+        "deviceName": "cat9k",
+        "deviceLocation": "OTT"
+    }
+]
