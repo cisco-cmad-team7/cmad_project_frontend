@@ -5,7 +5,8 @@ config = {
     },
     devServer: {
        inline: true,
-       port: 3001
+       port: 3001,
+       host: '0.0.0.0'
     },
     module: {
        loaders: [
