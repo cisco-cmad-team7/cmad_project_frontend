@@ -13,9 +13,9 @@ class MessageList extends React.Component {
 
    }
    componentDidMount() {
-      fetch('data.json').then(response => {
+      fetch('http://192.168.1.128:8090/message?pageNumber=0&numOfRecords=20&sortBy=datetime').then(response => {
          response.json().then(data => {
-            
+
             this.setState({
                data: data
             });
@@ -27,8 +27,8 @@ class MessageList extends React.Component {
          <div style={{marginLeft:'-155px',marginTop:'30px'}}>
          <Griddle results={this.state.data} resultsPerPage={5} enableInfiniteScroll={true} bodyHeight={200}/>
          </div>
-         
-        
+
+
       )
    }
 }
