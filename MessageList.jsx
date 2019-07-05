@@ -13,7 +13,7 @@ class MessageList extends React.Component {
 
    }
    componentDidMount() {
-      fetch('http://10.232.28.113:8090/message?pageNumber=0&numOfRecords=20&sortBy=datetime').then(response => {
+      fetch('http://localhost:8090/message?pageNumber=0&numOfRecords=20&sortBy=datetime').then(response => {
          response.json().then(data => {
 
             this.setState({
